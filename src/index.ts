@@ -1,5 +1,5 @@
 import express from 'express';
-import cors from 'cors';
+import cors = require('cors');
 import dotenv from 'dotenv';
 import './config/firebase'; 
 
